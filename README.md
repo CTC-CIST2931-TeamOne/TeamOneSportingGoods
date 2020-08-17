@@ -1,2 +1,1 @@
-"# TeamOneSportingGoods" 
-"# TeamOneSportingGoods" 
+"# TeamOneSportingGoods"
