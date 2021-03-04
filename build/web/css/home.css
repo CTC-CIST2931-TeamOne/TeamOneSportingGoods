@@ -1,0 +1,556 @@
+/*
+*   Only modified CSS for Navbar,Carousel,and login form, and banner *   in this home file. The original Css file by nathaen contains the 
+*   original navbar css and login form css edited by Edrey
+*
+*
+*/
+
+*	{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px 20px 0px 20px;
+    background-color: #B0D3E6;
+    border-radius: 20px;
+	}
+
+.nav-bar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+ 
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+/*  padding: 14px 16px;*/
+  background: none;
+  font-family: inherit;
+  	display: inline-block;
+	
+/*	padding: 3px 20px;*/
+    padding: 14px 16px;
+
+/*    float: right;*/
+
+}
+
+ .cartlogo{
+     
+    width:30px;
+    height:30px;
+    float: right;
+    
+}
+/*send navvar to right*/
+.logo{
+    flex: 1;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #a3c8ce;
+    margin-top: -14px;
+    border-radius: 8px 8px 8px 8px; /* top two corners are not round    */
+  
+  min-width: 160px;
+
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background: radial-gradient(#fff,#ffd6d6);
+     border-radius: 8px 8px 8px 8px;
+    color: black;
+}
+
+.show {
+  display: block;
+}
+
+a{text-decoration: none; color: #555;}
+p{color: #555;}
+
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	}
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 0px 0px 25px 0px;
+	}
+.column{
+	flex-basis: 50%;
+	min-width: 300px;
+	}
+.column img{
+	max-width: 100%;
+	padding: 50px 0;
+	}
+.column h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+	}
+.log_btn{
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 3px 20px;
+    margin-top: 10px; 
+	border-radius: 25px;
+	transition: background .5s;
+    float: right;
+    
+	}
+.log_btn:hover{
+	background: #563434;
+	}
+.btn{
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background .5s;
+	}
+.btn:hover{
+	background: #563434;
+	}
+.header{
+	background: radial-gradient(#fff,#ffd6d6);
+	}
+.header .row{
+	margin-top: 70px;
+	}
+/*Banner*/
+.banner{
+    margin-top: 20px;
+    border-style: solid ;
+    border-color: orange;
+    background-image:url(/TeamOneSports/carousel_images/sports.jpg);
+    padding: 20px 0px ;
+}
+.banner p{
+     position: relative;
+  bottom: 4px;
+  left: 16px;
+    text-align: center;
+    
+}
+
+.categories{
+	margin: 70px 0;
+/*    background: red;*/
+	}
+.column2{
+	flex-basis: 30%;
+	min-width: 250px;
+	margin-bottom: 30px;
+	}
+.column2 img{
+	width: 100%;
+	}
+.mini-container{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	}
+.title{
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+	color: #555;
+	}
+.title::before{
+	content: '';
+	background: #ff523b;
+	width: 80px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translatex(-50%);
+	}	
+.title::after{
+	content: '';
+	background: #ff523b;
+	width: 80px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translatex(-50%);
+	}
+h4{
+	color: #555;
+	font-weight: normal;
+	font-size: 21px;
+	}
+.column3{
+	flex-basis: 25%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+	transition: transform .5s;
+	}
+.column3 p{
+	font-size: 14px;
+	}
+.column3 img{
+	width: 100%;
+	}
+.column3:hover{
+	transform: scale(1.05,1.05);
+	}
+.offer{
+	background: radial-gradient(#fff,#ffd6d6);
+	margin-top: 80px;
+	padding: 30px 0;
+	}
+.column .image-ex{
+	padding: 50px;
+	}
+small{
+	color: #555;
+	}
+/* The Modal (background) */
+.modal {
+	  display: none; /* Hidden by default */
+	  position: fixed; /* Stay in place */
+	  z-index: 1; /* Sit on top */
+	  padding-top: 100px; /* Location of the box */
+	  left: 0;
+	  top: 0;
+	  width: 100%; /* Full width */
+	  height: 100%; /* Full height */
+	  overflow: auto; /* Enable scroll if needed */
+	  background-color: rgb(0,0,0); /* Fallback color */
+	  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+
+	  background-color: #fefefe;
+	  margin: auto;
+	  padding: 20px;
+	  border: 1px solid #888;
+	  width: 200px;
+	  max-width: 100%;
+	  float: right;
+	  margin-right: 20px;
+    
+    
+	  /* This was added to style the login form..feel free to changed or delete lines below* added by edrey*/
+	  background-color: #a3c8ce;
+      border: 1px solid gray;
+	  margin-top: -44px;
+      margin-right: 46px;
+	  border-radius: 8px 8px 8px 8px;   
+	  z-index: 1;
+}
+
+/* The Close Button */
+.close {
+	  color: #aaaaaa;
+	  float: right;
+	  font-size: 28px;
+	  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	  color: #000;
+	  text-decoration: none;
+	  cursor: pointer;
+}	
+.margin{
+	margin-top: 10px;
+    border: 1px solid orange;
+    
+}
+/*Footer Content*/
+
+.footer{
+	background: #000;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+	}
+.footer p{
+	color: #8a8a8a;
+	}
+.footer h3{
+	color: #fff;
+	margin-bottom: 20px;
+	}
+.columnfoot1, .columnfoot2, .columnfoot3, .columnfoot4{
+	min-width: 250px;
+	margin-bottom: 20px;
+	}
+.columnfoot1{
+	flex-basis:30%
+	}
+.columnfoot2{
+	flex: 1;
+	text-align: center;
+	}
+.columnfoot2 img{
+	width: 180px;
+	margin-bottom: 20px;
+	}
+.columnfoot3, .columnfoot4{
+	flex-basis: 12%;
+	text-align: center;
+	}
+ul{
+	list-style-type: none;
+	}
+.imageapp{
+	margin-top: 20px
+	}
+.imageapp img{
+	width: 140px;
+	}
+.footer hr{
+	border: none;
+	background: #b5b5b5;
+	height: 1px;
+	margin: 20px 0;
+	}
+.copyright{
+	text-align: center;
+	}
+
+
+/*All Products Page Content*/
+
+
+.row2{
+	justify-content: space-between;
+	margin: 100px auto 50px;
+	}
+select{
+	border: 1px solid #ff523b;
+	padding: 5px;
+	}
+select:focus{
+	outline: none;
+	}
+.btnpage span{
+	display: inline-block;
+	border: 1px solid #ff523b;
+	margin-left: 10px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	}
+.btnpage span:hover{
+	background: #ff523b;
+	color: #fff;
+	}
+	
+/*Product Details Content*/
+
+.single-product{
+	margin-top: 80px;
+	}
+.single-product .column img{
+	padding: 0;
+	}
+.single-product .column{
+	padding: 20px;
+	}
+.single-product h4{
+	margin: 20px 0;
+	font-size: 22px;
+	font-weight: bold;
+	}
+.single-product select{
+	display: block;
+	padding: 10px;
+	margin-top: 20px;
+	}
+.single-product input{
+	width: 50px;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 20px;
+	margin-right: 10px;
+	border: 1px solid #ff523b;
+	}
+input:focus{
+	outline: none;
+	}
+.imagerow{
+	display: flex;
+	justify-content: space-between;
+	}
+.imagecolumn{
+	flex-basis: 24%;
+	cursor: pointer;
+	}
+/*<!-- 
+Done By Edrey Torres
+
+list to do:
+ -carousel  5-6 images that scroll horizontaly all are clickable 
+- can at some point take you to a different page for the product
+- mouse change on hover
+- left and right arrows in case customer wants to go back or forth manualy
+- left right arrows invisable untill hover over picture-->*/
+
+.slider-container {
+    width: 1000px;
+    height: 460px;
+    padding: 4px;
+    background-color: #D58659;
+    box-shadow: 0px 0px 3px 1px #00000078;
+    position: relative;
+	border-radius: 10px;
+    
+}
+
+.c_image .image{
+    width: 990px;
+    height: 450px;
+    animation: automatic 1.5s;
+
+
+}
+
+img .image{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+
+
+}
+
+/*.c_image */ img:hover {
+    /*
+        border-style: inset;
+        border-color: aqua;
+*/
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}
+
+.left-arrow,
+.right-arrow {
+    position: absolute;
+    font-size: 40px;
+    top: 45%;
+    /*margin: auto color:gray;*/
+    background-color: transparent;
+    opacity: 0.4;
+    transition: .3s;
+    /* the time for the errow to be visible*/
+    padding: 5px 10px 5px 10px;
+    display: none;
+	border-radius: 50px
+}
+
+.right-arrow {
+    right: 0;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+    cursor: pointer;
+    color: black;
+    background-color: transparent;
+    border-style: solid;
+    border-width: thin;
+    opacity: 1;
+}
+
+.slider-container:hover  .left-arrow,
+.slider-container:hover  .right-arrow {
+    display: block;
+}
+/*makes the trasitions pop up smoothly*/
+@keyframes automatic {
+    from {
+        transform: scale(.98);
+        opacity: 0.9;
+
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* resposive corousel*/
+@media only screen and (max-width: 1020px) {
+    
+    .slider-container {
+        
+        margin: auto;
+	
+    width: 100%;
+    height: 100%;
+   
+    background-color: #D58659;
+    /*box-shadow: 0px 0px 3px 1px #00000078;*/
+    box-shadow: 0px 0px 3px 1px;
+    position: relative;
+	border-radius: 10px;
+    
+}
+  .c_image .image{
+    width: 100%;
+  height: 400px;
+    animation: automatic 1.5s;
+border-radius: 15px;
+
+}
+
+}
+
+
+/*<!---------------------------------------------------------->*/
