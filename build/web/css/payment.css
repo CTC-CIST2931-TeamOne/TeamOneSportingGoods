@@ -1,0 +1,320 @@
+
+/* 
+  The style sheet for TeamOneSports Profile Page
+  Created by: Hunter Browder
+*/
+
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+
+
+
+.profile{
+    
+    border-radius:10px;
+      box-shadow: 1px 2px #888888;
+    
+}
+
+#paymentForm{
+    
+    
+    
+
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  
+    
+    
+}
+
+#paymentField{
+    
+  background-color: #B0D3E6;
+  padding: 20px;
+  font-family: helvetica;
+  border-radius: 10px;
+ 
+    
+}
+
+.formInput{
+    
+    margin-right:100px;
+    
+}
+
+.col-5 {
+ 
+  width: 5%;
+  margin-top: 3px;
+  margin-right: 0px; 
+  padding-left:5px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+   
+}
+
+.col-10 {
+  float: left;
+  width: 10%;
+  margin-top: 3px;
+  
+  display: flex;
+
+  justify-content: space-around;
+   
+}
+
+.col-15 {
+ 
+  width: 15%;
+  margin-top: 3px;
+  margin-right: 0px; 
+  padding-left:0px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+   
+}
+
+
+.col-20 {
+  float: left;
+  width: 20%;
+  margin-top: 3px;
+  
+  display: flex;
+   
+  justify-content: space-around;
+  
+ 
+ 
+}
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 3px;
+  margin-right:0px;
+  padding-right:0px;
+   margin-left:0px;
+  padding-left:0px;
+  display: flex;
+ 
+  justify-content: space-around;
+   
+}
+
+
+.col-30 {
+  float: left;
+  width: 30%;
+  margin-top: 3px;
+  margin-right:0px;
+  padding-right:0px;
+  display: flex;
+ 
+  justify-content: space-around;
+   
+}
+
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 3px;
+  
+  display: flex;
+ padding-right: 0px;
+ margin-right: 0px;
+  justify-content: space-around;
+   
+}
+.middle {
+   padding-left: 25px;
+   margin-left:10px;
+   text-align: center;
+ 
+}
+
+.middle2 {
+   padding-left: 35px;
+   margin-left: 0px;
+   
+   
+   margin-right: 0px;
+   padding-right:0px;
+ 
+}
+
+.right{
+ 
+float: right;
+ 
+}
+.left{
+ 
+float: left;
+ 
+}
+
+
+.save{
+	display: inline-block;
+	background: #3CA4A4;
+	color: #fff;
+	padding: 5px 20px;
+	border-radius: 25px;
+	transition: background .5s;
+	float: right;
+	margin-top: 10px;
+}
+
+.save:hover{
+	background: #FFC76E;
+        color:black;
+}
+    
+
+
+
+ legend{
+  background-color: #3CA4A4;
+  color: white;
+  padding: 5px 10px;
+  font-family: helvetica;
+}
+
+.payment{
+    
+   border-collapse: collapse;
+   width: 100%; 
+    
+    
+}
+
+.border{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#emptyBorderBottomRight{
+    
+   
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 8px;
+   
+    
+  
+         
+}
+#emptyBorderTopRight{
+    
+    border-left: 1px solid #ddd;   
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+#emptyBorderRight{
+    
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+#emptyBorderLeft{
+    
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    
+         
+}
+
+#emptytable td{
+    
+    border-bottom: none;
+    border-right: none;
+    
+    
+}
+
+.payment th{
+    
+  padding-top: 12px;
+  padding-bottom: 12px;
+  
+  background-color: #3CA4A4;
+  color: white;
+    
+    
+}
+
+.alignLeft{
+    text-align: left;
+    color: red;
+    
+         
+}
+.alignCenter{
+    text-align: Center;
+    color: red;
+    
+         
+}
+
+/*------------EDITED By Hunter Browder 11/15/20*/
+ select {
+        width: 150px;
+        margin-left: 75px;
+    }
+    
+    .cardType{
+        margin-left: 55px;
+        padding-bottom: 15px;
+        justify-content: flex-start;
+    }
+    
+    .cardTypeEdited{
+        margin-left: 55px;
+        padding-bottom: 15px;
+        justify-content: flex-start;
+        border: black;
+    }
