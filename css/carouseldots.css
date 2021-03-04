@@ -1,0 +1,23 @@
+
+/* The dots/bullets/indicators */
+.carousel-dot {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin: 3px 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.8s ease;
+}
+
+.active, .carousel-dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.7s;
+  animation-name: fade;
+  animation-duration: 1.7s;
+}
