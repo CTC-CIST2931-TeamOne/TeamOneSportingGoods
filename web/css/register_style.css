@@ -1,0 +1,61 @@
+/*********************************************** 
+*    Created on : Oct 19, 2020
+*    Author     : Wes Plyler
+************************************************/
+
+.log_btn{
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 3px 20px;
+    margin-top: 10px; 
+	border-radius: 25px;
+	transition: background .5s;
+    float: right;
+    
+	}
+.log_btn:hover{
+	background: #563434;
+	}
+.btn{
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background .5s;
+        margin-top: 10px;
+	}
+.btn:hover{
+	background: #563434;
+	}
+
+.info {
+    text-align: center;
+    margin-top: 0px;
+    background-color: aliceblue;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.input{
+    margin-top: 5px;
+    border: 2px solid grey;
+}
+
+label{
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}
+
+input[type=email] {
+    padding: 6px;
+    margin-top: 6px;
+    margin-left: 0px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid black;
+    margin-right: auto;
+}

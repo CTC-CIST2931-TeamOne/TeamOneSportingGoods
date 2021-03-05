@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 6, 2020, 3:13:56 PM
+    Author     : edreytorres
+*/
+ 
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+.demo-flex {
+ display: flex;
+  flex-wrap: wrap;
+  background-color: #255167;
+ 
+  
+}/*
+*/ 
+ /*
+*/.demo-flex >  .test td{
+  
+  background-color: orange;
+  width: 62%;
+  text-align: left;
+ 
+}
+
+.demo-flex >  .test{
+  margin-top: 30px;
+  background-color: white;
+  width: 26%;
+  margin-left:5%;
+  margin-right:1%;
+  text-align: center;
+  margin-bottom: 2%; 
+  border-radius: 7px;
+  border-width: 4px;
+  border-color: white;
+}
+#orderNum,#custNum,#product,#quantity,#orderDate,#orderTime,#orderStatus,#orderAmount,#orderBalance,#orderTax,#orderShip,#orderTotal,#prodSize,#prodGender{
+
+    position: relative;
+    right: 28px;
+}
+
+.demo-flex >  .inputAndbutton {
+
+ position: fixed;
+ bottom: 0;
+ right:30px;
+}
+
+/*button*/
+.button {
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  padding: 3px 3px;
+  text-align: center;
+  font-size: 16px;
+  
+  opacity: 0.7;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+footer{
+    padding:9px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+} 
+/*logo*/
+.truck{ 
+    color: #0778FB;
+    
+} 
+/*navbar*/
+.adminnav{
+    background-color: gray; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, lightgray , #ed900e);
+    color: black;
+    border-style:outset;
+    
+}
+
+/*InputBoxes*/
+.infoBox{
+    border: 2px solid grey;
+}

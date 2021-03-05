@@ -1,0 +1,68 @@
+/*************************************************************************************************
+*  emplogin.css
+*  Author: Ian Mashburn
+*
+*  Color Palette: #1E4B62 (dark aquamarine) #FFFFFF (white)
+*    font-family: Georgia,Arial,Calibri;
+*
+**************************************************************************************************/
+/*************************************************************************************************
+* global presets for all selectors
+**************************************************************************************************/
+                        * { margin: 0px;                        /* set global margin */
+                            padding: 0px;                       /* set global padding */
+                            font-family: Georgia,Dotum,Calibri; /* set global font-family */
+                            max-width: 100%;                    /* set global parms for flexible page */
+                            max-height: 100%;
+                            height: auto;
+                            width: auto;
+                          }
+
+/*************************************************************************************************
+* classes, IDs and selectors for use by all pages
+**************************************************************************************************/
+               .floatLeft { float: left;
+                            margin-right: 10px;
+                	  }
+              .floatRight { float: right;
+                            margin-right: 10px;
+                	  }
+                     body {                                     /* set background gradient scheme for IE */
+                            background-image: -ms-linear-gradient(45deg, #FFFFFF 0%, #1E4B62 100%);
+                          }
+                     main { margin-left: auto;                  /* auto margins */
+                            margin-right: auto;
+                                                                /* set background gradient scheme for FireFox and Chrome */
+                            background-image: linear-gradient(to right, #FFFFFF 0%, #1E4B62 100%);
+                            overflow: auto;
+                          }
+                       h1 { padding-top: 50px;
+                            text-align: left;
+                          }
+              .buttonAttr { margin: 20px 0px;
+                            padding: 5px 20px;
+                            border-radius: 5px 5px 5px 5px;     /* top-left, top-right, bottom-right, bottom-left */
+                            font-weight: bold
+                          }
+                   footer { clear: left;
+                            text-align: center;
+                            margin: 10px;
+                          }
+
+/*************************************************************************************************
+* .CSS specific to LOGIN.JSP
+**************************************************************************************************/
+           #loginFormArea { margin-top: 125px;
+                            margin-left: 436.4px;
+                            height: 404px;
+                            width: auto;
+                            max-width: 62%;
+                            max-height: 95%;
+                          }
+         .loginTableLabel { font-weight: bold;
+                            padding: 16px 2px 0px 0px;          /* top, right, bottom, left */
+                            text-align: right;
+                          }
+         .loginTableField { text-align: left;
+                            padding: 16px 2px 0px 0px;          /* top, right, bottom, left */
+                          }
